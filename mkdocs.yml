@@ -1,50 +1,6 @@
 site_name: Strato Documentation
 nav:
-  - "Home": 
-    - index.md
-    - "Introduction": guides/home_page/introduction.md
-      # These have been taken out (they are old intro pages):
-#    - "Skills needed": guides/home_page/skills_needed.md
-#    - "Best practices": guides/home_page/best_practice.md
-#    - "Technical details": guides/home_page/technical_details.md
-  - "Getting started":
-    - guides/getting_started/welcome.md
-    - "Launch instance": guides/getting_started/launch_instance.md
-    - "Access instance": guides/getting_started/access_instance.md
-    - "Transfer files": guides/getting_started/transfer_files.md
-    - "Shutting down": guides/getting_started/shutting_down.md
-  - "Application guides":
-    - guides/application_guides/about_applications.md
-    - "Matlab": guides/application_guides/matlab/matlab.md
-    - "Jupyter Notebook": ./guides/application_guides/jupyter/jupyter.md
-    - "Docker": ./guides/application_guides/docker/docker.md
-      # These have been taken out:
-#    - "Ubuntu 18.04": guides/application_guides/ubuntu/ubuntu_18-04.md
-#    - "Ubuntu 20.04": guides/application_guides/ubuntu/ubuntu_20-04.md
-#    - "QGIS": guides/application_guides/qgis.md # NEEDS REWORK
-  - "Best-practice guides":
-    - "Best-practice guides": guides/best_practice_guides/index.md
-    - "Delete and restart an instance from the volume": guides/best_practice_guides/delete_instance_launch_from_volume.md
-    - "Stop, pause & delete instances": guides/best_practice_guides/Pause_shutdown_delete_instances.md
-    - "Create smaller volumes": guides/best_practice_guides/diffrent_volume_size.md
-    - "How to Minimize the Risk of Malware": guides/best_practice_guides/How_to_avoid_malware.md
-  - "Advanced guides":
-    - guides/advanced_guides/index.md
-    - "CLI": guides/advanced_guides/openstack_CLI.md
-    - "Custom security groups": guides/advanced_guides/Access_to_instance.md
-    - "Attaching a volume for additional storage": guides/advanced_guides/attach_volume.md
-    - "Persistent terminal sessions": guides/advanced_guides/running_simulations.md
-  - "FAQ":
-    - guides/faq/index.md
-    - "Cloud glossary": guides/faq/cloud_glossary.md
-
-# TO BE DETERMINED
-#    - "Save instances as image": guides/advanced_guides/save_image.md
-#    - "Resizing an instance": guides/advanced_guides/resize.md
-#    - "Remote desktop using X2Go and Xfce": guides/advanced_guides/remote_desktop_xfce.md
-
-# ADDITIONAL PAGE SECTIONS FOR FUTURE EDITIONS
-#  - "Research examples":
+  - index.md
 
 theme:
   name: material
